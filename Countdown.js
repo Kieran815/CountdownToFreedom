@@ -13,11 +13,11 @@ var countDown = setInterval(() => {
   var seconds = Math.floor((deathMarch % (1000 * 60)) / 1000);
 
   if (hours < 10) {
-    seconds = "0" + seconds;
+    hours = "0" + hours;
   }
 
   if (minutes < 10) {
-    seconds = "0" + seconds;
+    minutes = "0" + minutes;
   }
 
   if (seconds < 10) {
